@@ -1,0 +1,11 @@
+
+一、单机环境下
+    1、springboot starter方式的任务调度：参考org.wang.springboot
+
+    2、使用最原始的quartz：org.wang.quartz
+二、分布式环境下
+    1、使用e-job：org.wang.elasticjob
+        e-job依赖了zookeeper实现可分片任务的执行。但是灵活性很差
+    2、xxl-job：org.wang.xxl
+        框架比较灵活。
+
